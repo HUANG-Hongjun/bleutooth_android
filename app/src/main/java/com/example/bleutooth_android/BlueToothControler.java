@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class BlueToothControler {
 
-    private BluetoothAdapter myAdapter;
+    public BluetoothAdapter myAdapter;
 
     public BlueToothControler(){
         myAdapter = BluetoothAdapter.getDefaultAdapter();
